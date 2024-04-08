@@ -1,0 +1,13 @@
+{
+    "name": "@spginecologia/printer-worker",
+    "version": "2023.1.1",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "puppeteer": "22.6.3",
+        "papaparse": "5.4.1"
+    }
+}
