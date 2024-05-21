@@ -5,18 +5,18 @@
 import { useTranslations } from 'next-intl';
 import { useSearchParams } from 'next/navigation';
 import A4Wrapper from '@/components/A4Wrapper/A4Wrapper';
-import styles from './CertificatesWebinarNgia20240320.module.css';
-import BackgroundImage from './CertificatesWebinarNgia20240320.module.css';
+import styles from './CertificatesWebinarNgia20240514.module.css';
+import BackgroundImage from './CertificatesWebinarNgia20240514Background.svg';
 
 /* * */
 
-export default function CertificatesWebinarNgia20240320() {
+export default function CertificatesWebinarNgia20240514() {
   //
 
   //
   // A. Setup variables
 
-  const t = useTranslations('CertificatesWebinarNgia20240320');
+  const t = useTranslations('CertificatesWebinarNgia20240514');
 
   const searchParams = useSearchParams();
   const participantName = searchParams.get('name') || 'N/A';
