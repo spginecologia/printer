@@ -5,12 +5,12 @@
 import { useTranslations } from 'next-intl';
 import { useSearchParams } from 'next/navigation';
 import A4Wrapper from '@/components/A4Wrapper/A4Wrapper';
-import styles from './CertificatesWebinarNgia20240320.module.css';
-import BackgroundImage from './CertificatesWebinarNgia20240320.module.css';
+import styles from './styles.module.css';
+import BackgroundImage from './background.svg';
 
 /* * */
 
-export default function CertificatesWebinarNgia20240320() {
+export function CertificatesWebinarNgia20240320() {
   //
 
   //

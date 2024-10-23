@@ -1,6 +1,6 @@
 /* * */
 
-import CertificatesWebinarNgia20240514 from '@/components/CertificatesWebinarNgia20240514/CertificatesWebinarNgia20240514';
+import { CertificatesWebinarNgia20240514 } from "@/components/CertificatesWebinarNgia20240514";
 
 /* * */
 
