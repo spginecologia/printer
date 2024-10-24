@@ -4,7 +4,6 @@
 
 import A4Wrapper from '@/components/A4Wrapper/A4Wrapper';
 import { useSearchParams } from 'next/navigation';
-import { useTranslations } from 'next-intl';
 
 import styles from './CertificatesWebinarNgia20240514.module.css';
 import BackgroundImage from './CertificatesWebinarNgia20240514Background.svg';
@@ -17,8 +16,6 @@ export default function CertificatesWebinarNgia20240924Speaker() {
 	//
 	// A. Setup variables
 
-	const t = useTranslations('CertificatesWebinarNgia20240924Speaker');
-
 	const searchParams = useSearchParams();
 	const participantName = searchParams.get('name') || 'N/A';
 	const participantCode = searchParams.get('code') || 'ERROR';
@@ -29,10 +26,10 @@ export default function CertificatesWebinarNgia20240924Speaker() {
 	return (
 		<A4Wrapper backgroundImage={BackgroundImage}>
 			<div className={styles.background}>
-				<h1 className={styles.heading}>{t('heading')}</h1>
+				<h1 className={styles.heading}>Certificado</h1>
 				<p className={styles.name}>{participantName}</p>
-				<p className={styles.text}>{t('text')}</p>
-				<p className={styles.signature}>{t('signature')}</p>
+				<p className={styles.text}>foi palestrante no Webinar Síndrome do Ovário Poliquístico (SOP) na Adolescência, organizado pelo Núcleo de Ginecologia da Infância e Adolescência da SPG, no dia 24 de Setembro de 2024.</p>
+				<p className={styles.signature}>Academia SPG</p>
 			</div>
 			<span className={styles.code}>#{participantCode}</span>
 		</A4Wrapper>
