@@ -39,7 +39,7 @@ const RENDERER_URL = 'http://localhost:3006';
       let completeUrl = `${RENDERER_URL}${jobData.render_path}`;
 
       // Navigate to the URL
-      await browserPage.goto(completeUrl, { waitUntil: 'networkidle0', timeout: 2000 });
+      await browserPage.goto(completeUrl, { waitUntil: 'networkidle0', timeout: 5000 });
 
       // Set media-type to reflect CSS used for screens instead of print
       await browserPage.emulateMediaType('screen');

@@ -32,3 +32,10 @@ input,
 textarea {
   user-select: text;
 }
+
+/* ? */
+/* REMOVE NEXTJS OVERLAYS */
+
+nextjs-portal {
+	display: none;
+  }

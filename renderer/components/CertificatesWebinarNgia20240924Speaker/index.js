@@ -5,8 +5,8 @@
 import A4Wrapper from '@/components/A4Wrapper/A4Wrapper';
 import { useSearchParams } from 'next/navigation';
 
-import styles from './CertificatesWebinarNgia20240514.module.css';
-import BackgroundImage from './CertificatesWebinarNgia20240514Background.svg';
+import BackgroundImage from './background.svg';
+import styles from './styles.module.css';
 
 /* * */
 
