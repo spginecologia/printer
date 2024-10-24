@@ -1,15 +1,15 @@
 {
-  "compilerOptions": {
-    // Using "baseUrl" allows you to use absolute paths
-    "baseUrl": ".",
-    // Using "paths" allows you to configure module path aliases
-    "paths": {
-      "@/data/*": ["data/*"],
-      "@/assets/*": ["assets/*"],
-      "@/styles/*": ["styles/*"],
-      "@/services/*": ["services/*"],
-      "@/components/*": ["components/*"],
-      "@/translations/*": ["translations/*"]
-    }
-  }
+	"compilerOptions": {
+		// Using "baseUrl" allows you to use absolute paths
+		"baseUrl": ".",
+		// Using "paths" allows you to configure module path aliases
+		"paths": {
+			"@/assets/*": ["assets/*"],
+			"@/components/*": ["components/*"],
+			"@/data/*": ["data/*"],
+			"@/services/*": ["services/*"],
+			"@/styles/*": ["styles/*"],
+			"@/translations/*": ["translations/*"]
+		}
+	}
 }

@@ -1,3 +1,5 @@
+/* stylelint-disable unit-allowed-list */
+
 /* * */
 /* BACKGROUND */
 
@@ -5,17 +7,17 @@
   position: absolute;
   top: 64mm;
   left: 15%;
-  width: 70%;
-  margin: auto;
-  background-color: white;
   display: flex;
   flex-direction: column;
+  gap: 30px;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  width: 70%;
   padding: 30px;
-  border-radius: 8px;
+  margin: auto;
+  background-color: white;
   border: 1px solid var(--spg-support-4);
+  border-radius: 8px;
 }
 
 /* * */
@@ -24,34 +26,34 @@
 .heading {
   font-size: 18px;
   font-weight: 900;
-  text-transform: uppercase;
   color: var(--spg-support-5);
   text-align: center;
+  text-transform: uppercase;
 }
 
 /* * */
 /* NAME */
 
 .name {
+  padding: 0 3px 5px;
   font-size: 20px;
   font-weight: 900;
-  text-transform: uppercase;
   line-height: 1;
-  text-align: center;
   color: var(--spg-brand-2);
+  text-align: center;
+  text-transform: uppercase;
   border-bottom: 2px solid var(--spg-brand-2);
-  padding: 0 3px 5px 3px;
 }
 
 /* * */
 /* TEXT */
 
 .text {
+  padding: 0 60px;
   font-size: 18px;
   font-weight: 400;
-  text-align: center;
   color: var(--spg-support-5);
-  padding: 0 60px;
+  text-align: center;
 }
 
 /* * */
@@ -60,18 +62,18 @@
 .signature {
   font-size: 18px;
   font-weight: 900;
-  text-align: center;
   color: var(--spg-brand-1);
+  text-align: center;
 }
 
 /* * */
 /* CODE */
 
 .code {
-  font-size: 14px;
-  font-weight: 900;
-  color: var(--spg-support-4);
   position: absolute;
   bottom: 10mm;
   left: 10mm;
+  font-size: 14px;
+  font-weight: 900;
+  color: var(--spg-support-4);
 }

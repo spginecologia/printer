@@ -1,17 +1,27 @@
 {
-    "CertificatesWebinarNgia20240320": {
-        "heading": "Certificado de Participação",
-        "text": "participou no Webinar Consulta de Ginecologia na Infância e Adolescência, organizado pelo Núcleo de Ginecologia da Infância e Adolescência da SPG, no dia 20 de Março de 2024.",
-        "signature": "Academia SPG"
-    },
-    "CertificatesWebinarNgia20240514": {
-        "heading": "Certificado de Participação",
-        "text": "participou no Webinar Hemorragia Uterina Anormal na Adolescência, organizado pelo Núcleo de Ginecologia da Infância e Adolescência da SPG, no dia 14 de Maio de 2024.",
-        "signature": "Academia SPG"
-    },
-    "CertificatesWebinarNgia20240514Speaker": {
-        "heading": "Certificado",
-        "text": "foi palestrante no Webinar Hemorragia Uterina Anormal na Adolescência, organizado pelo Núcleo de Ginecologia da Infância e Adolescência da SPG, no dia 14 de Maio de 2024.",
-        "signature": "Academia SPG"
-    }
+	"CertificatesWebinarNgia20240320": {
+		"heading": "Certificado de Participação",
+		"signature": "Academia SPG",
+		"text": "participou no Webinar Consulta de Ginecologia na Infância e Adolescência, organizado pelo Núcleo de Ginecologia da Infância e Adolescência da SPG, no dia 20 de Março de 2024."
+	},
+	"CertificatesWebinarNgia20240514": {
+		"heading": "Certificado de Participação",
+		"signature": "Academia SPG",
+		"text": "participou no Webinar Hemorragia Uterina Anormal na Adolescência, organizado pelo Núcleo de Ginecologia da Infância e Adolescência da SPG, no dia 14 de Maio de 2024."
+	},
+	"CertificatesWebinarNgia20240514Speaker": {
+		"heading": "Certificado",
+		"signature": "Academia SPG",
+		"text": "foi palestrante no Webinar Hemorragia Uterina Anormal na Adolescência, organizado pelo Núcleo de Ginecologia da Infância e Adolescência da SPG, no dia 14 de Maio de 2024."
+	},
+	"CertificatesWebinarNgia20240924": {
+		"heading": "Certificado de Participação",
+		"signature": "Academia SPG",
+		"text": "participou no Webinar Síndrome do Ovário Poliquístico (SOP) na Adolescência, organizado pelo Núcleo de Ginecologia da Infância e Adolescência da SPG, no dia 24 de Setembro de 2024."
+	},
+	"CertificatesWebinarNgia20240924Speaker": {
+		"heading": "Certificado",
+		"signature": "Academia SPG",
+		"text": "foi palestrante no Webinar Síndrome do Ovário Poliquístico (SOP) na Adolescência, organizado pelo Núcleo de Ginecologia da Infância e Adolescência da SPG, no dia 24 de Setembro de 2024."
+	}
 }

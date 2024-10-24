@@ -1,35 +1,25 @@
 {
-  "version": "2.0.0",
-  "tasks": [
-    {
-      "label": "Start Renderer Project",
-      "detail": "Start local development server with 'npm run dev'",
-      "type": "npm",
-      "script": "dev",
-      "problemMatcher": [],
-      "options": {
-        "cwd": "${workspaceFolder}/renderer"
-      }
-    },
-    {
-      "label": "Install Renderer Project Dependencies",
-      "detail": "Install project dependencies.",
-      "type": "npm",
-      "script": "install",
-      "problemMatcher": [],
-      "options": {
-        "cwd": "${workspaceFolder}/renderer"
-      }
-    },
-    {
-      "type": "npm",
-      "script": "bump",
-      "problemMatcher": [],
-      "label": "Bump Renderer Project Version",
-      "detail": "Increase version number to now.",
-      "options": {
-        "cwd": "${workspaceFolder}/renderer"
-      }
-    }
-  ]
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Frontend",
+			"detail": "Start local development server for 'frontend' with 'npm run dev'",
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"options": {
+				"cwd": "${workspaceFolder}/frontend"
+			}
+		},
+		{
+			"label": "Start Videowall",
+			"detail": "Start local development server for 'videowall' with 'npm run dev'",
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"options": {
+				"cwd": "${workspaceFolder}/videowall"
+			}
+		}
+	]
 }
