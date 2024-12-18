@@ -11,7 +11,9 @@ export default function RootLayout({ children }) {
 			<head>
 				<link href="https://use.typekit.net/xgs1heq.css" rel="stylesheet" />
 			</head>
-			<body>{children}</body>
+			<body>
+				{children}
+			</body>
 		</html>
 	);
 }

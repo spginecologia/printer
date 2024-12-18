@@ -43,5 +43,6 @@ yarn-error.log*
 *.csv
 jobs.csv
 
-
 output
+
+renderer/next-env.d.ts

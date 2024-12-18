@@ -2,7 +2,7 @@
 
 /* * */
 
-import A4Wrapper from '@/components/A4Wrapper/A4Wrapper';
+import { A4Wrapper } from '@/components/A4Wrapper';
 import { useSearchParams } from 'next/navigation';
 
 import BackgroundImage from './background.svg';
@@ -10,7 +10,7 @@ import styles from './styles.module.css';
 
 /* * */
 
-export function CertificatesWebinarNgia20240514Speaker() {
+export default function Page() {
 	//
 
 	//
@@ -24,7 +24,7 @@ export function CertificatesWebinarNgia20240514Speaker() {
 	// B. Render components
 
 	return (
-		<A4Wrapper backgroundImage={BackgroundImage}>
+		<A4Wrapper backgroundImageSrc={BackgroundImage}>
 			<div className={styles.background}>
 				<h1 className={styles.heading}>Certificado</h1>
 				<p className={styles.name}>{participantName}</p>
