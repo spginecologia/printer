@@ -40,6 +40,9 @@ const EmailTemplateWebinar20240924 = require('./templates/webinar-20240924');
       // Log progress
       console.log(`→ Sent! code: ${jobData.code} | email: ${jobData.email}`);
 
+	  // Wait for 5 seconds before sending the next email
+	  await new Promise((resolve) => setTimeout(resolve, 5000));
+
       //
     } catch (err) {
       console.log('🔴 → Error notifying "%s"', jobData.code, err);
