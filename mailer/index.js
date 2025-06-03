@@ -4,7 +4,7 @@ require('dotenv').config();
 const fs = require('fs');
 const Papa = require('papaparse');
 const SMTPSERVICE = require('./services/SMTPSERVICE');
-const EmailTemplateWebinar20240320 = require('./templates/webinar-20240320');
+const EmailTemplateWebinar20250521 = require('./templates/webinar-20250521');
 
 /* * */
 
@@ -24,8 +24,8 @@ const EmailTemplateWebinar20240320 = require('./templates/webinar-20240320');
       await SMTPSERVICE.transport.sendMail({
         from: [{ name: 'Academia SPG', address: 'academia@spginecologia.pt' }],
         to: [{ name: jobData.name || '', address: jobData.email }],
-        subject: EmailTemplateWebinar20240320.subject(),
-        html: EmailTemplateWebinar20240320.body({
+        subject: EmailTemplateWebinar20250521.subject(),
+        html: EmailTemplateWebinar20250521.body({
           code: jobData.code,
           name: jobData.name,
         }),

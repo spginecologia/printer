@@ -1,0 +1,77 @@
+/* * */
+/* BACKGROUND */
+
+.background {
+  position: absolute;
+  top: 64mm;
+  left: 15%;
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid var(--spg-support-4);
+}
+
+/* * */
+/* HEADING */
+
+.heading {
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--spg-support-5);
+  text-align: center;
+}
+
+/* * */
+/* NAME */
+
+.name {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+  color: var(--spg-brand-2);
+  border-bottom: 2px solid var(--spg-brand-2);
+  padding: 0 3px 5px 3px;
+}
+
+/* * */
+/* TEXT */
+
+.text {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--spg-support-5);
+  padding: 0 60px;
+}
+
+/* * */
+/* SIGNATURE */
+
+.signature {
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  color: var(--spg-brand-1);
+}
+
+/* * */
+/* CODE */
+
+.code {
+  font-size: 14px;
+  font-weight: 900;
+  color: var(--spg-support-4);
+  position: absolute;
+  bottom: 10mm;
+  left: 10mm;
+}
